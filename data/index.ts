@@ -10,7 +10,7 @@ export const gridItems = [
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2 ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -20,7 +20,7 @@ export const gridItems = [
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
@@ -37,6 +37,16 @@ export const gridItems = [
     spareImg: "",
   },
   {
+    id: 5,
+    title: "Currently building a JS Animation library",
+    description: "The Inside Scoop",
+    className: "md:col-span-3 md:row-span-2",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    titleClassName: "justify-center md:justify-start lg:justify-center",
+    img: "/b5.svg",
+    spareImg: "/grid.svg",
+  },
+  {
     id: 4,
     title: "Tech enthusiast with a passion for development.",
     description: "",
@@ -47,16 +57,6 @@ export const gridItems = [
     spareImg: "/b4.svg",
   },
 
-  {
-    id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
   {
     id: 6,
     title: "Do you want to start a project together?",
@@ -70,28 +70,28 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
+  // {
+  //   id: 1,
+  //   title: "3D Solar System Planets to Explore",
+  //   des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+  //   img: "/p1.svg",
+  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+  //   link: "/ui.earth.com",
+  // },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Connect - Video Conferencing App",
+    des: "Simplify your video conferencing experience with Connet. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg"],
+    link: "Coming Soon",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "Surveillance - AI and machine learning based Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
     link: "/ui.aiimg.com",
   },
   {
@@ -107,42 +107,24 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the pleasure of working with Basit Amin, and I highly recommend their work. Basit has a strong technical skill set, with expertise in front-end and back-end development. They consistently deliver high-quality results on time and are great at solving complex challenges. Basit is also an excellent communicator and collaborator, making them an asset to any team. I look forward to seeing their continued success!",
+    name: "Asad Kamal",
+    title: "Architect at Rapidev",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "As a Project Manager, I had the opportunity to work with Basit Amin, and I highly recommend their work. Basit is a skilled web app developer with strong technical expertise and a great problem-solving ability. They consistently deliver high-quality, scalable solutions while meeting deadlines. Basit is also an excellent team player and communicator, ensuring smooth collaboration across departments. A true asset to any project!",
+    name: "Hamza Tayyab",
+    title: "Software Engineer || RPA Consultant",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "React",
+    img: "/react.svg",
+    nameImg: "",
   },
   {
     id: 2,
@@ -180,7 +162,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Mobile App Dev ",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -205,13 +187,15 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/BasitSidhu",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  // },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/basitaminsidhu/",
   },
 ];
