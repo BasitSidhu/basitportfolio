@@ -124,13 +124,13 @@ export const companies = [
     id: 1,
     name: "React",
     img: "/react.svg",
-    nameImg: "",
+    nameImg: "/reactname.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "/python.svg",
+    nameImg: "/pythonname.svg",
   },
   {
     id: 3,

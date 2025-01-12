@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.02 46.29">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        fill: #d1d1d1;
+        font-family: Panton-BlackCaps, Panton;
+        font-size: 41.51px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-4" transform="translate(0 35.49)"><tspan x="0" y="0">Re</tspan><tspan class="cls-2" x="51.85" y="0">a</tspan><tspan class="cls-1" x="79.42" y="0">c</tspan><tspan class="cls-3" x="106.44" y="0">t</tspan></text>
+  </g>
+</svg>
